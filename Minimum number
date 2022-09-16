@@ -1,0 +1,17 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int biggestNum(int, int,int);
+int main()
+{
+    int num1,num2,num3; //declare the variables
+    cout<<"Enter the first number:  ";
+    cin>>num1;//get input from user for num1
+    cout<<"Enter the second number: ";
+    cin>>num2;//get input from user for num2
+    cout<<"Enter the third number: ";
+    cin>>num3;//get input from user for num3
+    biggestNum(num1,num2,num3);
+    getch();
+    return 0;
+}
