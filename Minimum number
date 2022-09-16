@@ -15,3 +15,21 @@ int main()
     getch();
     return 0;
 }
+    int biggestNum(int num1,int num2,int num3){
+    if(num1<num2){//compare num1 and num2
+            if(num1<num3){//compare num1 and num3
+         cout<<"\nSmallest number is:" <<num1;
+            }
+            else{
+                cout<<"\nSmallest number is:"<<num3;
+            }
+    }
+    else{
+        if(num2<num3){//compare num2 and num1
+            cout<<"\nSmallest number is:"<<num2;
+        }
+        else{
+            cout<<"\nSmallest number is:"<<num3;
+        }
+    }
+    }
